@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Zahid Ahmad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Chat with Zahid Ahmad</h1>
+    <textarea id="input" placeholder="Ask me about my experience, skills, or work..."></textarea>
+    <button onclick="getResponse()" id="submitBtn">Send</button>
+    <button onclick="saveAndStartNew()">Save & New Chat</button>
+    <button onclick="togglePreviousChats()">Show Previous Chats</button>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="chat-history"></div>
+    <div id="previous-chats"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
