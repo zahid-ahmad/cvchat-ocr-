@@ -1,5 +1,5 @@
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const API_KEY = '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';
+const API_KEY = ' API KEY';
 
 const inputField = document.getElementById('input');
 const submitBtn = document.getElementById('submitBtn');
